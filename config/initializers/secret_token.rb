@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Capitalhub::Application.config.secret_key_base = 'd609333d585c8a03cb5bac4be085aa067c5ae6cdc8cc507346788d45e73b8eaf0a3af967959526e8de6f6a9f6a279abe1758f4a16e65c5da45bffe8ebeacf234'
+Capitalhub::Application.config.secret_key_base = '97af139af33fc1e64b83314dd24b88b528092302f065c4a1a828f368ea63e3859eb72bfad7805d328c890224872665cda567bffdfd02dd729bc97f05cc0a21a9'
