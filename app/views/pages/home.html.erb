@@ -1,4 +1,34 @@
 <div class="jumbotron center">
 	<h1>Your financial life, in one hub.</h1>
-	<p> Click here to <%= link_to "sign up", "#", class: "btn btn-large btn-primary" %></p>
+	<p> <%= link_to "Sign up", "#", class: "btn btn-large btn-primary" %> <%= link_to "Log in", "#", class: "btn btn-large btn-primary" %></p>
 </div>
+
+<body>
+	<%= render 'pages/carousel' %>
+<!-- adding 2 columns for future icons -->
+</body>
+
+<div class="container">
+  <div class="row">
+    <div class="span4">
+      <h2>Simple expense management</h2>
+      <p>More info on Expense Management </p>
+      <p><a class="btn" href="#">View details &raquo;</a></p>
+    </div>
+    <div class="span4">
+      <h2>Easy access to all your financials</h2>
+      <p>You log in by doing this.. </p>
+      <p><a class="btn" href="#">View details &raquo;</a></p>
+   </div>
+    <div class="span4">
+      <h2>Free platform</h2>
+      <p>Filler text.</p>
+      <p><a class="btn" href="#">View details &raquo;</a></p>
+    </div>
+  </div>
+</div>
+
+
+<footer>
+  <p>&copy; CapitalHub 2013</p>
+</footer>
