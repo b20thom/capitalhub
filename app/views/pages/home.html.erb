@@ -1,34 +1,23 @@
-<div class="jumbotron center">
-	<h1>Your financial life, in one hub.</h1>
-	<p> <%= link_to "Sign up", "#", class: "btn btn-large btn-primary" %> <%= link_to "Log in", "#", class: "btn btn-large btn-primary" %></p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
 
-<body>
-	<%= render 'pages/carousel' %>
-<!-- adding 2 columns for future icons -->
-</body>
-
-<div class="container">
-  <div class="row">
-    <div class="span4">
-      <h2>Simple expense management</h2>
-      <p>More info on Expense Management </p>
-      <p><a class="btn" href="#">View details &raquo;</a></p>
-    </div>
-    <div class="span4">
-      <h2>Easy access to all your financials</h2>
-      <p>You log in by doing this.. </p>
-      <p><a class="btn" href="#">View details &raquo;</a></p>
-   </div>
-    <div class="span4">
-      <h2>Free platform</h2>
-      <p>Filler text.</p>
-      <p><a class="btn" href="#">View details &raquo;</a></p>
-    </div>
+  <div class="jumbotron center">
+  	<h1>Your financial life,<br> in one hub.</h1>
+  	<p> <%= link_to "Sign up", "#", class: "btn btn-large btn-primary" %> <%= link_to "Log in", "#", class: "btn btn-large btn-primary" %></p>
   </div>
-</div>
 
+  <!-- Carousel feature -->
+  <div class="container">
+    <%= render 'pages/carousel' %>
+  </div> 
 
-<footer>
-  <p>&copy; CapitalHub 2013</p>
-</footer>
+  <!-- featurettes below the carousel -->
+  <div class="container marketing" style="width:100%">
+    <%= render 'pages/featurettes' %>
+  </div>
+
+  <footer>
+    <p>&copy; CapitalHub 2013</p>
+  </footer>
+
+</html>
